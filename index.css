@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.examples-div {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid black; */
+}
+
+.individual-examples {
+  margin-right: 10rem;
+}
+
+#rotate-20 {
+  transform: rotate(20deg);
+}
+
+#rotate-90 {
+  transform: rotate(90deg);
+}
+
+#rotate-180 {
+  transform: rotate(180deg);
+}
+
+#rotate-275 {
+  transform: rotate(275deg);
+}
+
+#scaleX {
+  transform: scaleX(0.25);
+}
+
+#scaleY {
+  transform: scaleY(1.5);
+}
+
+#scaleXY {
+  transform: scaleXY(0.25, 1.2);
+}
+
+#skewX {
+  transform: skewX(45deg);
+}
+
+#skewY {
+  transform: skewY(0.6rad);
+}
+
+#skewXY {
+  transform: skewXY(45deg, 75deg);
+}
+
+#skew {
+  transform: skew(45deg);
+}
+
+.translate-div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#translateX {
+  transform: translateX(60px);
+}
+
+#translateY {
+  transform: translate(40px);
+}
+
+#translateXY {
+  transform: translate(50px, 50px);
+}
+
+#rotateX {
+  transform: rotateX(60deg);
+}
+
+#rotateY {
+  transform: rotateY(60deg);
+}
+
+#rotateXY {
+  transform: rotateZ(60deg);
+}
+
+#image-angle-view {
+  transform: rotateZ(-25deg) rotateY(45deg) translateY(50px) translateX(100px);
+}
