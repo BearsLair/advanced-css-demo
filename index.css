@@ -152,3 +152,51 @@ body {
   position: absolute;
   transform: rotateX(45deg) translateY(220px) translateX(15px);
 }
+
+.large-painting {
+  margin: 3rem;
+  padding: 0;
+  border: 1px solid black;
+  height: 500px;
+  width: 700px;
+  position: relative;
+}
+
+#blue-box-background {
+  z-index: 4;
+  background-color: rgb(1, 71, 141);
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  transform-origin: top left;
+}
+
+#red-box-background {
+  z-index: 4;
+  background-color: rgb(134, 1, 32);
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  transform-origin: top left;
+  transform: translateX(400px);
+}
+
+#green-box-background {
+  z-index: 4;
+  background-color: rgb(79, 128, 0);
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  transform-origin: top left;
+  transform: translateY(300px);
+}
+
+#yellow-box-background {
+  z-index: 4;
+  background-color: rgb(141, 141, 2);
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  transform-origin: top left;
+  transform: translateY(400px) translateX(400px);
+}
