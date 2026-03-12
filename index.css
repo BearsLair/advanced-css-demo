@@ -160,9 +160,12 @@ body {
   height: 500px;
   width: 700px;
   position: relative;
+  background-color: black;
 }
 
 #blue-box-background {
+  margin: 0;
+  padding: 0;
   z-index: 4;
   background-color: rgb(1, 71, 141);
   position: absolute;
@@ -172,6 +175,8 @@ body {
 }
 
 #red-box-background {
+  margin: 0;
+  padding: 0;
   z-index: 4;
   background-color: rgb(134, 1, 32);
   position: absolute;
@@ -182,6 +187,8 @@ body {
 }
 
 #green-box-background {
+  margin: 0;
+  padding: 0;
   z-index: 4;
   background-color: rgb(79, 128, 0);
   position: absolute;
@@ -192,6 +199,8 @@ body {
 }
 
 #yellow-box-background {
+  margin: 0;
+  padding: 0;
   z-index: 4;
   background-color: rgb(141, 141, 2);
   position: absolute;
